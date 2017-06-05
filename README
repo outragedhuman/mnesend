@@ -1,0 +1,5 @@
+//launch gubiq with the following parameters
+
+./gubiq-linux-amd64 --rpc --rpcaddr '127.0.0.1' --rpcapi "eth,web3" --unlock '0x08b8091fb47d5f0aca6d2976ebeda0c56cf375a0'
+
+// replace the address after --unlock with the address you will be sending from, you will be prompted for the passphrase.
