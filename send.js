@@ -59,14 +59,6 @@ var minereum =  web3.eth.contract(abi).at("0x1a95b271b0535d15fa49932daba31ba612b
 
 console.log("Contract instantiated...");
 
-/* // test contract is loaded correctly;
-if (minereum.address) {
-  console.log(minereum.address);
-} else {
-  console.log('err');
-}
-*/
-
 // address to send to
 var toAddress = 'your_address';
 
